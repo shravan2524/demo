@@ -1,0 +1,25 @@
+{
+  "name": "testest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+    "test": "jest",
+    "lint": "eslint .",
+    "pods": "npx pod-install",
+    "update-lock": "npx yarn-deduplicate",
+    "postinstall": "yarn update-lock && yarn pods"
+  },
+  "dependencies": {
+    "@react-native-community/progress-view": "^1.4.1",
+    "react": "^18.2.0",
+    "react-native": "0.71.7",
+    "react-native-macos": "0.71.1",
+    "react-native-macos-cli": "^2.0.1",
+    "react-native-viewport-units": "^0.0.5",
+    "react-native-windows": "^0.71.7"
+  },
+  "devDependencies": {
+    "react-native-test-app": "^2.5.1"
+  }
+}
