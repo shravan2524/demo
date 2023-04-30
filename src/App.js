@@ -75,64 +75,6 @@ export default function App() {
             }} animation={200}>
         <View style={styles.container} >
             <TriangleAnimation style={styles.triangle}></TriangleAnimation>
-          {/* <View style={{}}>
-          <FadeInView
-            style={{
-            }} animation={700}>
-            <Text style={styles.text}>
-              Pizzeria Jerry Due
-            </Text>
-          </FadeInView>
-         </View>   */}
-          {/* <FadeInView style={{
-        }} animation={1200}>
-          <View style={styles.card} >
-            <View style={{marginRight:5}}>
-              <Image source={require('./download.jpeg')} style={{ width: 40, height: 40, borderRadius: 20 }} />
-            </View>
-            <View>
-              <Text style={styles.text} >Pizzeria Jerry Due</Text>
-              <Text style={styles.greyText}>Manager</Text>
-            </View>
-          </View>
-        </FadeInView> */}
-          {/* <View >
-          <FadeInView style={{
-          }} animation={1700}>
-            <View style={styles.div}>
-              <Text >Password</Text>
-              <Text style={styles.greyText}>Forget password?</Text>
-            </View>
-          </FadeInView >
-          <FadeInView style={{
-          }} animation={2200}>
-            <View style={styles.sectionStyle}>
-              <TextInput
-
-                placeholder="Password"
-                value={password}
-                onChange={setpassword}
-              />
-            </View>
-          </FadeInView>
-        </View> */}
-          {/* <FadeInView style={{
-        }} animation={2700}>
-          <TouchableOpacity
-            underlayColor='#fff' style={styles.btn}>
-            <Text style={{color:"white"}}>Login</Text>
-          </TouchableOpacity>
-        </FadeInView> */}
-          {/* <FadeInView style={{
-        }} animation={3200}>
-          <View style={{margin:"auto", marginTop : 8}}>
-            <CheckBox
-              onPress={() => setselection(!selection)}
-              title="Remember Me"
-              isChecked={selection}
-            />
-          </View>
-        </FadeInView>   */}
         </View>
       </FadeInView>
     </View>
